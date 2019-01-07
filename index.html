@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Oberfläche</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="img/titleicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <script src="script/script.js" charset="utf-8"></script>
+
+      <div id="box">
+        <audio id="audioContent" src="aud/audio.mp3" loop controls></audio>
+        <video id="videoContent" src="vid/video.mp4" loop controls></video>
+        <img id="imageContent" src="img/schifahrer.jpg" alt="Schifahrer">
+        <p id="textContent">Im Jahre 1999 wurde der Euro in Frankreich, Belgien, Luxemburg, Niederlande, Irland, Finnland, Deutschland, Österreich, Italien, Spanien, Portugal und Griechenland eingeführt. Man konnte aber noch nicht bar mit der neuen Währung bezahlen, aber das Problem beim Handel zwischen zwei Ländern mit dem Wechselkurs wurde behoben. 3 Jahre später wurde der Euro auch als Bargeld eingeführt.</p>
+      </div>
+
+    <div id="image"> <img id="iconHover" class="img" src="img/imageicon.gif" alt="Imageicon" onclick="displayImage()"> </div>
+    <div id="video"> <img id="iconHover" class="img" src="img/videoicon.gif" alt="Videoicon" onclick="displayVideo()"> </div>
+    <div id="audio"> <img id="iconHover" class="img" src="img/audioicon.gif" alt="Audioicon" onclick="displayAudio()"> </div>
+    <div id="text">  <img id="iconHover" class="img" src="img/texticon.gif"  alt="Texticon"  onclick="displayText()">  </div>
+  </body>
+</html>

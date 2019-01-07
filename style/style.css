@@ -1,0 +1,111 @@
+html    {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;  
+}
+body    {
+  margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+}
+.img    {
+  width: 350px;
+  height: 350px;
+  transition: all 0.2s linear;
+  transform: scale(1);
+}
+#audio   {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+}
+#audioContent   {
+  display: none;
+}
+#text   {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
+}
+#textContent    {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 50px 80px #888888;
+  padding: 25px;
+
+}
+#image   {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
+}
+#imageContent    {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 50px 80px #888888;
+}
+#video   {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+}
+#videoContent   {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 50px 80px #888888;
+
+}
+#box   {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  transition: all 1.5s linear;
+  opacity: 0;
+
+}
+#box p    {
+  max-width: 30%;
+  height: auto;
+  font-family: 'Calibri';
+  font-size: 20px;
+}
+#box img, video    {
+  max-width: 30%;
+  height: auto;
+}
+#iconHover:hover    {
+  transform: scale(1.1);
+  cursor: pointer;
+}
